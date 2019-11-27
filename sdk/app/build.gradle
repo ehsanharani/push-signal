@@ -8,7 +8,7 @@ android {
     compileSdkVersion 29
     defaultConfig {
         applicationId "co.jadeh.pushsignalapp"
-        manifestPlaceholders = [onesignal_app_id: "8617a4a8-dbf2-430a-b124-b6c34f2f01bb",
+        manifestPlaceholders = [onesignal_app_id: "app-id",
                                 // Project number pulled from dashboard, local value is ignored.
                                 onesignal_google_project_number: "REMOTE"]
         minSdkVersion 19
