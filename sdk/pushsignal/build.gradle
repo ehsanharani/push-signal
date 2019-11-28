@@ -11,6 +11,8 @@ android {
                                 // Project number pulled from dashboard, local value is ignored
                                 onesignal_google_project_number: '${onesignal_google_project_number}']
         minSdkVersion 15
+        versionCode 1
+        versionName "1.0.0"
         consumerProguardFiles 'consumer-proguard-rules.pro'
     }
 
